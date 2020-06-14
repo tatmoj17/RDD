@@ -1,0 +1,19 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & All tested drivers - Linear & All tested drivers - Interaction & All tested drivers - Quadratic \\ \hline
+ &  &  &  \\
+cutoff & -0.022*** &  &  \\
+ & [0.006] &  &  \\
+1.cutoff &  & -0.021*** & -0.014* \\
+ &  & [0.006] & [0.008] \\
+ &  &  &  \\
+Observations & 46,957 & 46,957 & 46,957 \\
+Controls & Yes & Yes & Yes \\
+ Mean & 0.105 & 0.105 & 0.105 \\ \hline
+\multicolumn{4}{c}{ Robust standard errors in brackets} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}
